@@ -7,27 +7,75 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    <div class="container">
+    <div id="Welcome-header">
         <h1>Welcome to the Bookstore</h1>
         <h2>Add a book to the store</h2>
-        <input type="text" id="title" placeholder="Book Name">  
-        <input type="text" id="author" placeholder="Author Name">
-        <input type="text" id="publisher" placeholder="Publisher Name">
-        <button>Add book</button>
-    </div>  
-    <h2>Books in the stock</h2>
-    <table>
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Author</th>
-            <th>Publisher</th>
-          </tr>
-        </thead>
-        <tbody id="book-list">
-        </tbody>
-    </table>
     </div>
+
+  <form>
+
+      <section class= "Search for books">
+      
+         <label for="Book Title"> Book Title </label>
+         <br>
+         <input type="text" name= "Book Title " id="Book Title" placeholder="Book title">     
+         <br>
+         <label for="Book Author"> Book Author </label>
+         <br>
+         <input type="text" placeholder="Book Author" name= "Book Author" id="Book Author" >
+         <br>
+        <label for="Book Publisher"> Book Publisher </label>
+         <br>
+         <input type="text" placeholder="Book Publisher" name= "Book Publisher" id="Book Publisher" > 
+         <br>
+
+      </section>
+
+        <div id="Add Book">
+        <input type="submit" value="Add Book">
+        </div>
+  </form>
+  
+    <section id="books-table">
+        
+        <h2>Books in Stock</h2>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Publisher</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Row 1 -->
+                <tr>
+                    <td>The Great Gatsby</td>
+                    <td>F. Scott Fitzgerald</td>
+                    <td>Scribner <button>Delete</button></td>
+                </tr>
+                <!-- Row 2 -->
+                <tr>
+                    <td>To Kill a Mockingbird</td>
+                    <td>Harper Lee</td>
+                    <td>J.B. Lippincott & Co. <button>Delete</button></td>
+                </tr>
+                <!-- Row 3 -->
+                <tr>
+                    <td>1984</td>
+                    <td>George Orwell</td>
+                    <td>Secker & Warburg <button>Delete</button></td>
+                </tr>
+                <!-- Row 4 -->
+                <tr>
+                    <td>Moby Dick</td>
+                    <td>Herman Melville</td>
+                    <td>Harper & Brothers <button>Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
     <script src="js/app.js"></script> 
 </body>
 </html>
