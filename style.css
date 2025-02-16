@@ -1,0 +1,103 @@
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Header styles */
+#Welcome-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin: 5px;
+}
+
+/* Form styles */
+form {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Input field styles */
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Add Book button */
+#Add\ Book {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#Add\ Book input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#Add\ Book input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Books table */
+#books-table {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Align delete button to the far right */
+td:last-child {
+    text-align: right;
+}
+
+/* Delete button */
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+
+
